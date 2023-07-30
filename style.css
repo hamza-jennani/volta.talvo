@@ -1,0 +1,1692 @@
+/* Start Globals Rules */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    overflow-x: hidden;
+    height: 0;
+}
+/* End Globals Rules */
+/* Start Variables */
+:root {
+    --yellowColor: #FFC800;
+    --grayColor: #6c757d;
+}
+/* End Variables */
+/* Start Navigation */
+.navigation {
+    background-color: #212529;
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+}
+.navigation ul {
+    list-style: none;
+    z-index: 10;
+}
+.navigation ul li {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 10;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    z-index: 10;
+}
+.navigation ul li:nth-child(1) a {
+    position: relative;
+    left: 103px;
+    color: var(--yellowColor);
+    font-size: 35px;
+    font-weight: 600;
+}
+.navigation ul li:nth-child(2) a, .navigation ul li:nth-child(3) a, .navigation ul li:nth-child(4) a, .navigation ul li:nth-child(5) a, .navigation ul li:nth-child(6) a {
+    position: relative;
+    left: 458px;
+    margin-right: 40px;
+}
+.navigation ul li:nth-child(2) a:hover,
+.navigation ul li:nth-child(3) a:hover,
+.navigation ul li:nth-child(4) a:hover,
+.navigation ul li:nth-child(5) a:hover,
+.navigation ul li:nth-child(6) a:hover {
+    color: var(--yellowColor);
+}
+#services:focus-visible ~ .navigation ul li:nth-child(2) a {
+    color: var(--yellowColor);
+}
+/* End Navigation */
+/* Start Masthead */
+.masthead {
+    text-align: center;
+}
+.masthead img {
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    bottom: 3px;
+}
+.masthead .masthead-subheading {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 568px;
+}
+.masthead .masthead-heading-uppercase {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 537px;
+}
+.masthead .masthead-primary-btn {
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3c3c3c;
+    text-decoration: none;
+    position: relative;
+    bottom: 471px;
+    background: var(--yellowColor);
+    border-radius: 10px;
+}
+/* End Masthead */
+/* Start Services */
+#services {
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+#services .services-heading {
+    font-size: 40px;
+}
+#services .services-subheading {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 28px;
+}
+/* Responsive Design */
+#services .services-responsive-design  {
+    position: relative;
+    top: 65px;
+    right: 414px;
+}
+#services .services-responsive-design .fa-circle {
+    color: var(--yellowColor);
+    font-size: 135px;
+}
+#services .services-responsive-design .fa-solid {
+    position: relative;
+    top: 35px;
+    font-size: 70px;
+    color: white;
+}
+#services .services-responsive-design .services-title {
+    position: relative;
+    top: 73px;
+    font-size: 35px;
+}
+#services .services-responsive-design .services-description {
+    color: var(--grayColor);
+    line-height: 1.7;
+    position: relative;
+    top: 90px;
+    font-size: 18px;
+}
+/* E-Commerce */
+#services .services-e-commerce  {
+    position: relative;
+    bottom: 168px;
+}
+#services .services-e-commerce .fa-circle {
+    color: var(--yellowColor);
+    font-size: 135px;
+}
+#services .services-e-commerce .fa-solid {
+    position: relative;
+    top: 35px;
+    font-size: 70px;
+    color: white;
+}
+#services .services-e-commerce .services-title {
+    position: relative;
+    top: 73px;
+    font-size: 35px;
+}
+#services .services-e-commerce .services-description {
+    color: var(--grayColor);
+    line-height: 1.7;
+    position: relative;
+    top: 90px;
+    font-size: 18px;
+}
+/* Web Security */
+#services .services-web-security  {
+    position: relative;
+    bottom: 402px;
+    left: 411px;
+}
+#services .services-web-security .fa-circle {
+    color: var(--yellowColor);
+    font-size: 135px;
+}
+#services .services-web-security .fa-solid {
+    position: relative;
+    top: 35px;
+    font-size: 70px;
+    color: white;
+}
+#services .services-web-security .services-title {
+    position: relative;
+    top: 73px;
+    font-size: 35px;
+}
+#services .services-web-security .services-description {
+    color: var(--grayColor);
+    line-height: 1.7;
+    position: relative;
+    top: 90px;
+    font-size: 18px;
+}
+/* End Services */
+/* Start Portfolio */
+#portfolio{
+    background-color: #F8F9FA;
+    text-align: center;
+    position: relative;
+    bottom: 272px;
+    height: 1045px;
+}
+#portfolio .portfolio-heading {
+    font-size: 40px;
+    padding-top: 10px;
+}
+#portfolio .portfolio-subheading {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 28px;
+}
+/* Illustration */
+#portfolio .portfolio-illustration {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 102px;
+    top: 336px;
+}
+#portfolio .portfolio-illustration img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-illustration img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* Graphic Design */
+#portfolio .portfolio-graphic-design {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 483px;
+    top: 225px;
+}
+#portfolio .portfolio-graphic-design img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-graphic-design img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* Identity */
+#portfolio .portfolio-identity {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 864px;
+    top: 115px;
+}
+#portfolio .portfolio-identity img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-identity img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* Branding */
+#portfolio .portfolio-branding {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 102px;
+    top: 409px;
+}
+#portfolio .portfolio-branding img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-branding img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* Website Design */
+#portfolio .portfolio-website-design {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 485px;
+    top: 299px;
+}
+#portfolio .portfolio-website-design img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-website-design img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* Photography */
+#portfolio .portfolio-photography {
+    width: 356px;
+    height: 110px;
+    background-color: #c0c0c0;
+    position: relative;
+    left: 865px;
+    top: 189px;
+}
+#portfolio .portfolio-photography img {
+    width: 356px;
+    height: 267px;
+    position: relative;
+    bottom: 267px;
+}
+#portfolio .portfolio-photography img:hover + .fa-solid {
+    visibility: visible;
+}
+#portfolio .fa-solid {
+    font-size: 60px;
+    position: relative;
+    bottom: 435px;
+    color: var(--yellowColor);
+    visibility: hidden;
+}
+#portfolio .portfolio-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    position: relative;
+    bottom: 340px;
+}
+#portfolio .portfolio-type {
+    font-size: 17px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 10px;
+    position: relative;
+    bottom: 340px;
+}
+/* End Portfolio */
+/* Start About */
+#about {
+    text-align: center;
+    position: relative;
+    bottom: 1607px;
+}
+#about::before {
+    content: "";
+    width: 2.5px;
+    height: 1382px;
+    background-color: #e9ecef;
+    position: relative;
+    display: inline-block;
+    top: 1683px;
+}
+#about .about-heading {
+    font-size: 40px;
+    padding-top: 10px;
+}
+#about .about-subheading {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 28px;
+}
+/* Our Humble */
+#about .about-our-humble-heading{
+    font-size: 24px;
+    padding-left: 168px;
+    position: relative;
+    right: 260px;
+    top: 47px;
+}
+#about .about-our-humble-subheading{
+    font-size: 24px;
+    position: relative;
+    right: 260px;
+    top: 55px;
+}
+#about .about-our-humble-description{
+    line-height: 1.7;
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    right: 260px;
+    top: 67px;
+}
+#about .about-our-humble img {
+    border-radius: 100%;
+    width: 142px;
+    height: 142px;
+    border: 7px solid #e9ecef;
+    position: relative;
+    bottom: 167px;
+}
+/* Agency */
+#about .about-agency-heading{
+    font-size: 24px;
+    padding-left: 168px;
+    position: relative;
+    right: -109px;
+    top: 47px;
+}
+#about .about-agency-subheading{
+    font-size: 24px;
+    position: relative;
+    right: -234px;
+    top: 55px;
+}
+#about .about-agency-description{
+    line-height: 1.7;
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    right: -262px;
+    top: 67px;
+}
+#about .about-agency img {
+    border-radius: 100%;
+    width: 142px;
+    height: 142px;
+    border: 7px solid #e9ecef;
+    position: relative;
+    bottom: 167px;
+}
+/* Transition */
+#about .about-transition-heading{
+    font-size: 24px;
+    padding-left: 168px;
+    position: relative;
+    right: 289px;
+    top: 47px;
+}
+#about .about-transition-subheading{
+    font-size: 24px;
+    position: relative;
+    right: 260px;
+    top: 55px;
+}
+#about .about-transition-description{
+    line-height: 1.7;
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    right: 260px;
+    top: 67px;
+}
+#about .about-transition img {
+    border-radius: 100%;
+    width: 142px;
+    height: 142px;
+    border: 7px solid #e9ecef;
+    position: relative;
+    bottom: 167px;
+}
+/* Expansion */
+#about .about-expansion-heading{
+    font-size: 24px;
+    padding-left: 168px;
+    position: relative;
+    right: -100px;
+    top: 47px;
+}
+#about .about-expansion-subheading{
+    font-size: 24px;
+    position: relative;
+    right: -256px;
+    top: 55px;
+}
+#about .about-expansion-description{
+    line-height: 1.7;
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    right: -262px;
+    top: 67px;
+}
+#about .about-expansion img {
+    border-radius: 100%;
+    width: 142px;
+    height: 142px;
+    border: 7px solid #e9ecef;
+    position: relative;
+    bottom: 167px;
+}
+/* Last Image */
+#about .about-last-image {
+    border-radius: 100%;
+    width: 142px;
+    height: 142px;
+    border: 7px solid #e9ecef;
+    position: relative;
+    bottom: -51px;
+    display: inline-block;
+    background-color: #FFC800;
+}
+#about .about-last-image .about-last-image-subheading {
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    position: relative;
+    bottom: -30px;
+}
+#about .about-our-humble-description br:nth-child(2), br:nth-child(4), br:nth-child(6), br:nth-child(8),
+#about .about-agency-description br:nth-child(2), br:nth-child(4), br:nth-child(6), br:nth-child(8),
+#about .about-transition-description br:nth-child(2), br:nth-child(4), br:nth-child(6), br:nth-child(8),
+#about .about-expansion-description br:nth-child(2), br:nth-child(4), br:nth-child(6), br:nth-child(8) {
+    display: none;
+}
+/* End About */
+/* Start Team */
+#team {
+    text-align: center;
+    background-color: #F8F9FA;
+    height: 679px;
+    position: relative;
+    bottom: 1490px;
+}
+#team .team-heading {
+    font-size: 40px;
+    padding-top: 10px;
+}
+#team .team-subheading {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--grayColor);
+    margin-top: 28px;
+}
+/* Parveen Anand */
+#team .team-parveen-anand {
+    text-align: center;
+    position: relative;
+    right: 396px;
+    top: 42px;
+}
+#team .team-parveen-anand img {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 7px solid #DFE0E1;
+}
+#team .team-parveen-anand .team-parveen-anand-heading {
+    font-size: 24px;
+    position: relative;
+    top: 17px;
+}
+#team .team-parveen-anand .team-parveen-anand-subheading {
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    top: 27px;
+    
+}
+#team .team-parveen-anand .span-twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-parveen-anand .span-facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-parveen-anand .span-linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-parveen-anand .fa-twitter {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-parveen-anand .fa-facebook-f {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-parveen-anand .fa-linkedin-in {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+/* Diana Petersen */
+#team .team-diana-petersen {
+    text-align: center;
+    position: relative;
+    bottom: 274px;
+}
+#team .team-diana-petersen img {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 7px solid #DFE0E1;
+}
+#team .team-diana-petersen .team-diana-petersen-heading {
+    font-size: 24px;
+    position: relative;
+    top: 17px;
+}
+#team .team-diana-petersen .team-diana-petersen-subheading {
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    top: 27px;
+    
+}
+#team .team-diana-petersen .span-twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-diana-petersen .span-facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-diana-petersen .span-linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-diana-petersen .fa-twitter {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-diana-petersen .fa-facebook-f {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-diana-petersen .fa-linkedin-in {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+/* Larry Parker */
+#team .team-larry-parker {
+    text-align: center;
+    position: relative;
+    left: 379px;
+    bottom: 589px;
+}
+#team .team-larry-parker img {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 7px solid #DFE0E1;
+}
+#team .team-larry-parker .team-larry-parker-heading {
+    font-size: 24px;
+    position: relative;
+    top: 17px;
+}
+#team .team-larry-parker.team-larry-parker .team-larry-parker-subheading {
+    color: var(--grayColor);
+    font-size: 16px;
+    position: relative;
+    top: 27px;
+    
+}
+#team .team-larry-parker .span-twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-larry-parker .span-facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-larry-parker .span-linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 43px;
+    margin-right: 10px;
+}
+#team .team-larry-parker .fa-twitter {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-larry-parker .fa-facebook-f {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-larry-parker .fa-linkedin-in {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#team .team-description {
+    font-size: 16px;
+    color: var(--grayColor);
+    position: relative;
+    bottom: 462px;
+}
+/* IMG */
+#team .team-img {
+    position: relative;
+    right: 64px;
+    cursor: pointer;
+    bottom: 54px;
+}
+#team .team-img img {
+    height: 44px;
+}
+#team .team-img .team-microsoft {
+    position: relative;
+    bottom: 303px;
+    right: 125px;
+}
+#team .team-img .team-google {
+    position: relative;
+    bottom: 303px;
+    left: 4px;
+}
+#team .team-img .team-facebook {
+    position: relative;
+    bottom: 303px;
+    left: 127px;
+}
+#team .team-img .team-ibm {
+    position: relative;
+    bottom: 303px;
+    left: 251px;
+}
+
+/* End Team */
+/* Start Contact */
+#contact {
+    background-color: #212529;
+    position: relative;
+    bottom: 1336px;
+    text-align: center;
+}
+#contact .contact-heading {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 647px;
+}
+#contact .contact-subheading {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--grayColor);    
+    position: relative;
+    bottom: 634px;
+}
+/* Contact Form */
+#contact form {
+    height: 0;
+}
+#contact #contact-user-name,
+#contact #contact-email {
+    margin-bottom: 20px;
+}
+#contact #contact-user-name,
+#contact #contact-email,
+#contact #contact-phone {
+    display: block;
+    width: 514px;
+    height: 66px;
+    padding-left: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    position: relative;
+    bottom: 578px;
+    left: 52px;
+}
+#contact #contact-user-name:focus-visible,
+#contact #contact-email:focus-visible,
+#contact #contact-email:focus-visible,
+#contact #contact-message:focus-visible {
+    outline: none;
+}
+#contact #contact-message {
+    width: 514px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    color: #212529;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+    min-height: 224px;
+    line-height: 1.5;
+    font-size: 14px;
+    position: relative;
+    bottom: 823px;
+    left: 391px;
+}
+#contact #contact-button {
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3c3c3c;
+    text-decoration: none;
+    position: relative;
+    bottom: 705px;
+    right: 266px;
+    background: var(--yellowColor);
+    border-radius: 10px;
+    border: none;
+}
+#contact #contact-button:active {
+    outline: none;
+}
+/* End Contact */
+/* Start Footer */
+#footer {
+    text-align: center;
+    height: 40px;
+    padding-top: 24px;
+    padding-bottom: 467px;
+    position: relative;
+    bottom: 1339px;
+}
+/* Footer first */
+#footer .footer-first {
+    background-color: #222;
+    width: 100vw;
+    height: 455px;
+    position: relative;
+    bottom: 22px;
+    text-align: start;
+}
+/* First Column */
+#footer .first-column {
+    position: relative;
+    right: -98px;
+}
+#footer .first-column .footer-first-heading {
+    font-size: 26px;
+    position: relative;
+    top: 90px;
+    left: 155px;
+    color: white;
+}
+#footer .first-column .footer-first-description {
+    color: white;
+    position: relative;
+    left: 153px;
+    top: 124px;
+    line-height: 1.7;
+}
+#footer .first-column .footer-second-description {
+    color: white;
+    line-height: 1.7;
+    position: relative;
+    left: 152px;
+    top: 136px;
+}
+/* Second Column */
+#footer .second-column {
+    position: relative;
+    left: 916px;
+    bottom: 78px;
+}
+#footer .second-column .footer-first-heading {
+    font-size: 26px;
+    color: white;
+    bottom: 0px;
+}
+#footer .second-column ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+#footer .second-column li {
+    margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+}
+#footer .second-column li a {
+    text-decoration: none;
+    color: white;
+}
+/* Footer Last */
+#footer .footer-last {
+    position: relative;
+    top: -23px;
+    background-color: #1b1b1b;
+    padding-bottom: 1px;
+}
+#footer .span-twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    top: 18px;
+}
+#footer .span-facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    top: 18px;
+}
+#footer .span-linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #212529;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    top: 18px;
+}
+#footer .fa-twitter {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#footer .fa-facebook-f {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#footer .fa-linkedin-in {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: white;
+}
+#footer .footer-copyright {
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 26px;
+    right: 382px;
+    top: -9px
+}
+#footer .footer-link-1,
+#footer .footer-link-2 {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+    left: 462px;
+}
+#footer .footer-link-1 {
+    margin-right: 20px;
+}
+/* End Footer */
+/* Start Responsive */
+/* Tablet Devices */
+@media (max-width: 1000px) {
+    /* Tablet Devices */
+    .navigation {
+        width: 114vw;
+    }
+    .navigation ul li:nth-child(1) a {
+        position: relative;
+        left: 31px;
+    }
+    .navigation ul li:nth-child(2) a,
+    .navigation ul li:nth-child(3) a,
+    .navigation ul li:nth-child(4) a,
+    .navigation ul li:nth-child(5) a,
+    .navigation ul li:nth-child(6) a {
+        position: relative;
+        left: 236px;
+    }
+    .masthead {
+        text-align: center;
+    }
+    .masthead img {
+        width: 114vw;
+    }
+    .masthead .masthead-subheading {
+        position: relative;
+        bottom: 501px;
+    }
+    .masthead .masthead-heading-uppercase {
+        position: relative;
+        bottom: 463px;
+    }
+    .masthead .masthead-primary-btn {
+        position: relative;
+        bottom: 398px;
+    }
+    #services {
+        text-align: center;
+    }
+    #services .services-heading {
+        position: relative;
+    }
+    #services .services-subheading {
+        position: relative;
+    }
+    #services .services-responsive-design  {
+        position: relative;
+        right: 317px;
+    }
+    #services .services-e-commerce  {
+        position: relative;
+        bottom: 134px;
+    }
+    #services .services-web-security  {
+        position: relative;
+        bottom: 330px;
+        left: 324px;
+    }
+    #services .services-responsive-design .services-title,
+    #services .services-e-commerce .services-title,
+    #services .services-web-security .services-title {
+        font-size: 25px;
+    }
+    #services .services-responsive-design .services-description,
+    #services .services-e-commerce .services-description,
+    #services .services-web-security .services-description {
+        font-size: 16px;
+    }
+    #services .services-responsive-design .services-description br:nth-child(2), br:nth-child(5),
+    #services .services-e-commerce .services-description br:nth-child(2), br:nth-child(5),
+    #services .services-web-security .services-description br:nth-child(2), br:nth-child(5) {
+        display: none;
+    }
+    #services .services-responsive-design .fa-circle,
+    #services .services-e-commerce .fa-circle,
+    #services .services-web-security .fa-circle {
+        font-size: 120px;
+    }
+    #services .services-responsive-design .fa-solid,
+    #services .services-e-commerce .fa-solid,
+    #services .services-web-security .fa-solid {
+        font-size: 60px;
+    }
+    #portfolio {
+        text-align: center;
+    }
+    #portfolio .portfolio-illustration {
+        width: 295px;
+        height: 110px;
+        position: relative;
+        top: 336px;
+        left: 24px;
+    }
+    #portfolio .portfolio-illustration,
+    #portfolio .portfolio-graphic-design,
+    #portfolio .portfolio-identity,
+    #portfolio .portfolio-branding,
+    #portfolio .portfolio-website-design,
+    #portfolio .portfolio-photography {
+        padding-top: 47px;
+        width: 295px;
+        height: 110px;
+    }
+    #portfolio .portfolio-graphic-design {
+        position: relative;
+        left: 343px;
+        top: 179px;
+    }
+    #portfolio .portfolio-identity {
+        position: relative;
+        left: 662px;
+        top: 21px;
+    }
+    #portfolio .portfolio-branding {
+        position: relative;
+        top: 267px;
+        left: 24px;
+    }
+    #portfolio .portfolio-website-design {
+        position: relative;
+        top: 111px;
+        left: 343px;
+    }
+    #portfolio .portfolio-photography {
+        position: relative;
+        top: -47px;
+        left: 662px;
+    }
+    #portfolio .portfolio-illustration img,
+    #portfolio .portfolio-graphic-design img,
+    #portfolio .portfolio-identity img,
+    #portfolio .portfolio-branding img,
+    #portfolio .portfolio-website-design img,
+    #portfolio .portfolio-photography img
+     {
+        width: 295px;
+        height: 220px;
+    }
+    #team .team-parveen-anand {
+        position: relative;
+        right: 318px;
+    }
+    #team .team-larry-parker {
+        position: relative;
+        left: 323px;
+    }
+    #team .team-img .team-microsoft {
+        position: relative;
+        right: 64px;
+    }
+    #team .team-img .team-google {
+        position: relative;
+        left: 1px;
+    }
+    #team .team-img .team-facebook {
+        position: relative;
+        left: 81px;
+    }
+    #team .team-img .team-ibm {
+        position: relative;
+        left: 172px;
+    }
+    .contact-form {
+        text-align: center;
+        position: relative;
+        top: 78px;
+    }
+    #contact #contact-user-name,
+    #contact #contact-email,
+    #contact #contact-phone {
+        width: 424px;
+        height: 64px;
+        position: relative;
+        left: 24px;
+    }
+    #contact #contact-message {
+        width: 424px;
+        min-height: 214px;
+        position: relative;
+        bottom: 823px;
+        left: 352px;
+    }
+    #contact #contact-button {
+        position: relative;
+        bottom: 705px;
+        right: 226px;
+    }
+    #footer .footer-first {
+        padding-bottom: 76px;
+    }
+    #footer .first-column {
+        position: relative;
+        right: 0;
+    }
+    #footer .second-column {
+        position: relative;
+        left: 665px;
+    }
+    #footer .footer-last {
+        position: relative;
+        top: -24px;
+        width: 100vw;
+        left: 0px;
+    }
+    /* Mobile Devices */
+    @media (max-width: 600px) {
+        body {
+            flex-direction: column;
+            align-items: center;
+        }
+        .navigation {
+            text-align: center;
+            height: 70px;
+            width: 878px;
+        }
+        .navigation ul li:nth-child(1) a {
+            font-size: 25px;
+            position: relative;
+            top: 5px;
+            left: -137px;
+        }
+        .navigation ul li:nth-child(2) a,
+        .navigation ul li:nth-child(3) a,
+        .navigation ul li:nth-child(4) a,
+        .navigation ul li:nth-child(5) a,
+        .navigation ul li:nth-child(6) a {
+            display: none;
+        }
+        .masthead img {
+            width: 114vw;
+            height: 446px;
+            position: relative;
+            top: 68px;
+        }
+        .masthead .masthead-subheading {
+            font-size: 24px;
+            position: relative;
+            bottom: 293px;
+        }
+        .masthead .masthead-heading-uppercase {
+            font-size: 52px;
+            position: relative;
+            bottom: 260px;
+        }
+        .masthead .masthead-primary-btn {
+            position: relative;
+            bottom: 206px;
+        }
+        #services .services-responsive-design  {
+            position: relative;
+            top: 305px;
+            left: 1px;
+        }
+        #services .services-web-security {
+            position: relative;
+            top: 231px;
+            left: 6px;
+        }
+        #services .services-responsive-design .services-description br:nth-child(2), br:nth-child(5),
+        #services .services-e-commerce .services-description br:nth-child(2), br:nth-child(5),
+        #services .services-web-security .services-description br:nth-child(2), br:nth-child() {
+            display: block;
+        }
+        #services .services-responsive-design .services-description br:nth-child(1), br:nth-child(3), br:nth-child(4),
+        #services .services-e-commerce .services-description br:nth-child(1), br:nth-child(3), br:nth-child(4),
+        #services .services-web-security .services-description br:nth-child(1), br:nth-child(3), br:nth-child(4) {
+            display: none;
+        }
+        #portfolio {
+            text-align: center;
+            position: relative;
+            top: 294px;
+        }
+        #portfolio .portfolio-illustration,
+        #portfolio .portfolio-graphic-design,
+        #portfolio .portfolio-identity,
+        #portfolio .portfolio-branding,
+        #portfolio .portfolio-website-design,
+        #portfolio .portfolio-photography {
+            padding-top: 80px;
+            width: 248px;
+            height: 32px;
+        }
+        #portfolio .portfolio-illustration img,
+        #portfolio .portfolio-graphic-design img,
+        #portfolio .portfolio-identity img,
+        #portfolio .portfolio-branding img,
+        #portfolio .portfolio-website-design img,
+        #portfolio .portfolio-photography img
+         {
+            width: 248px;
+            height: 187px;
+        }
+        #portfolio .portfolio-illustration {
+            position: relative;
+            top: 235px;
+            left: 35px;
+        }
+        #portfolio .portfolio-graphic-design {
+            position: relative;
+            top: 122px;
+            left: 305px;
+        }
+        #portfolio .portfolio-identity {
+            position: relative;
+            top: 329px;
+            left: 35px;
+        }
+        #portfolio .portfolio-branding {
+            position: relative;
+            top: 217px;
+            left: 305px;
+        }
+        #portfolio .portfolio-website-design {
+            position: relative;
+            top: 424px;
+            left: 35px;
+        }
+        #portfolio .portfolio-photography {
+            position: relative;
+            top: 313px;
+            left: 305px;
+        }
+        #about {
+            text-align: center;
+            position: relative;
+            bottom: 697px;
+        }
+        #about .about-subheading {
+            margin-top: 14px;
+        }
+        #about .about-our-humble img {
+            margin-bottom: 2px;
+        }
+        #about .about-our-humble img,
+        #about .about-agency img,
+        #about .about-transition img,
+        #about .about-expansion img {
+            height:  54px;
+            width: 54px;
+            position: relative;
+            left: -214px;
+            top: -143px;
+        }
+        #about .about-last-image {
+            position: relative;
+            bottom: -50px;
+            left: -214px;
+            width: 54px;
+            height: 54px;
+        }
+        #about .about-our-humble-heading{
+            font-size: 20px;
+            position: relative;
+            right: 187px;
+            top: 52px;
+        }
+        #about .about-our-humble-subheading {
+            font-size: 20px;
+            position: relative;
+            right: 35px;
+        }
+        #about .about-agency-heading{
+            font-size: 20px;
+            position: relative;
+            right: 186px;
+            top: 45px;
+        }
+        #about .about-agency-subheading{
+            font-size: 20px;
+            position: relative;
+            right: 66px;
+            top: 48px;
+        }
+        #about .about-agency-description{
+            font-size: 14px;
+            position: relative;
+            right: 30px;
+            top: 67px;
+        }
+        #about .about-our-humble-description br:nth-child(1), br:nth-child(3), br:nth-child(5), br:nth-child(7), br:nth-child(9),
+        #about .about-agency-description br:nth-child(1), br:nth-child(3), br:nth-child(5), br:nth-child(7), br:nth-child(9),
+        #about .about-transition-description br:nth-child(1), br:nth-child(3), br:nth-child(5), br:nth-child(7), br:nth-child(9),
+        #about .about-expansion-description br:nth-child(1), br:nth-child(3), br:nth-child(5), br:nth-child(7), br:nth-child(9) {
+            display: block;
+        }
+        #about .about-our-humble-description {
+            font-size: 14px;
+            position: relative;
+            right: 27px;
+            top: 67px;
+        }
+        #about .about-transition-heading{
+            font-size: 20px;
+            position: relative;
+            right: 167px;
+            top: 47px;
+        }
+        #about .about-transition-subheading{
+            font-size: 20px;
+            position: relative;
+            right: 38px;
+            top: 53px;
+        }
+        #about .about-transition-description{
+            font-size: 14px;
+            position: relative;
+            right: 30px;
+            top: 73px;
+        }
+        #about .about-expansion-heading{
+            font-size: 20px;
+            position: relative;
+            right: 197px;
+            top: 43px;
+        }
+        #about .about-expansion-subheading{
+            font-size: 20px;
+            position: relative;
+            right: 51px;
+            top: 52px;
+        }
+        #about .about-expansion-description{
+            font-size: 14px;
+            position: relative;
+            right: 32px;
+            top: 73px;
+        }
+        #about::before {
+            content: "";
+            position: relative;
+            top: 1250px;
+            left: -215px;
+            height: 1056px;
+        }
+        #about .about-last-image .about-last-image-subheading {
+            font-size: 10px;
+            line-height: 14px;
+            position: relative;
+            bottom: -10px;
+        }
+        #team {
+            position: relative;
+            bottom: 601px;
+        }
+        #team .team-parveen-anand {
+            position: relative;
+            right: 0px;
+        }
+        #team .team-diana-petersen {
+            position: relative;
+            bottom: -125px;
+        }
+        #team .team-larry-parker {
+            position: relative;
+            left: 1px;
+            bottom: -212px;
+        }
+        #team .team-img .team-microsoft {
+            position: relative;
+            right: -107px;
+            top: -356px;
+        }
+        #team .team-img .team-facebook {
+            position: relative;
+            left: -196px;
+            top: -297px;
+        }
+        #team .team-img .team-google {
+            position: relative;
+            left: 155px;
+            top: -356px;
+        }
+        #team .team-img .team-ibm {
+            position: relative;
+            left: 175px;
+            top: -340px;
+        }
+        #team .team-img {
+            position: relative;
+            right: 64px;
+            cursor: pointer;
+            bottom: -791px;
+        }
+        #team .team-description {
+            font-size: 16px;
+            color: var(--grayColor);
+            position: relative;
+            bottom: -357px;
+        }
+        #contact {
+            position: relative;
+            top: 71px;
+            height: 838px;
+        }
+        #contact #contact-user-name,
+        #contact #contact-email,
+        #contact #contact-phone {
+            height: 57px;
+            position: relative;
+            left: 53px;
+            bottom: 673px;
+        }
+        #contact #contact-message {
+            position: relative;
+            bottom: 636px;
+            left: -8px;
+        }
+        #contact #contact-button {
+            position: relative;
+            bottom: 605px;
+            right: 12px;
+        }
+        #footer {
+            position: relative;
+            bottom: -69px;
+        }
+        #footer .first-column .footer-first-heading {
+            position: relative;
+            top: 125px;
+        }
+        #footer .first-column .footer-first-description {
+            color: white;
+            position: relative;
+            left: 153px;
+            top: 152px;
+            line-height: 1.7;
+        }
+        #footer .first-column .footer-second-description {
+            position: relative;
+            top: 173px;
+        }
+        #footer .footer-first {
+            padding-bottom: 30px;
+        }
+        
+}
+}
+/* End Responsive */
